@@ -1,5 +1,5 @@
-%define		svnrev		1107713
-%define		_kdever		4.4.1
+%define		svnrev		1108995
+%define		_kdever		4.4.2
 %define		_qtver		4.6.2
 
 Summary:	Web development tools for KDE4
@@ -13,9 +13,8 @@ Epoch:		2
 License:	GPL
 Group:		X11/Development/Tools
 # get it via: svn co svn://anonsvn.kde.org/home/kde/trunk/extragear/sdk/quanta
-Source0:	http://75.236.1.75/src/%{name}-svn-%{svnrev}.tar.bz2
-#Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{name}-%{version}.tar.bz2
-# Source0-md5:	662e146fe740f2355f3ac93276faa5e5
+Source0:	%{name}-%{svnrev}.tar.bz2
+# Source0-md5:	a3950e0168151b51719d43c6b8ebf4da	
 URL:		http://www.kde.org/
 BuildRequires:	Qt3Support-devel >= %{_qtver}
 BuildRequires:	QtCore-devel >= %{_qtver}
