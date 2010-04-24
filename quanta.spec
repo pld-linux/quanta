@@ -62,7 +62,7 @@ tornando um editor maduro com um bom número de excelentes
 características.
 
 %prep
-%setup -q -n %{name}
+%setup -q -n %{name}-%{svnrev}
 
 %build
 install -d build
